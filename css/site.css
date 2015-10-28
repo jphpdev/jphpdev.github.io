@@ -1,56 +1,44 @@
 body { font-family: trebuchet ms}
-.container { 
-  max-width: 800px;}
-.header { 
-  margin-top: 6rem; 
-  text-align: center; }
+.container { max-width: 800px;}
+.header { margin-top: 6rem; text-align: center; }
 
-  /* Navbar */
-  .navbar + .docs-section {
-    border-top-width: 0; }
-  .navbar,
-  .navbar-spacer {
-    display: block;
-    width: 100%;
-    height: 4.5rem;
-    background: #fff;
-    z-index: 99;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee; }
-  .navbar-spacer {
-    display: none; }
-  .navbar > .container {
-    width: 100%; }
-  .navbar-list {
-    list-style: none;
-    margin-bottom: 0; }
-  .navbar-item {
-    position: relative;
-    float: left;
-    margin-bottom: 0; }
-  .navbar-link {
-    /*text-transform: uppercase;*/
-    font-size: 11px;
-    font-weight: 600;
-    /*letter-spacing: .2rem;*/
-    margin-right: 35px;
-    text-decoration: none;
-    line-height: 4.5rem;
-    color: #222; }
-  .navbar-link.active {
-    color: #33C3F0; }
-  .has-docked-nav .navbar {
-    position: fixed;
-    top: 0;
-    left: 0; }
-  .has-docked-nav .navbar-spacer {
-    display: block; }
-  /* Re-overiding the width 100% declaration to match size of % based container */
-  .has-docked-nav .navbar > .container {
-    width: 80%; }
+/* Navbar */
+.navbar + .docs-section { border-top-width: 0; }
+.navbar,
+.navbar-spacer {
+display: block;
+width: 100%;
+height: 2.5rem;
+background: #fff;
+z-index: 99;
+border-top: 1px solid #eee;
+border-bottom: 1px solid #eee; }
+.navbar-spacer { display: none; }
+.navbar > .container { width: 100%; }
+.navbar-list { list-style: none; margin-bottom: 0; }
+.navbar-item { position: relative; float: left; margin-bottom: 0; }
+.navbar-link {
+/*text-transform: uppercase;*/
+font-size: 0.9em;
+font-weight: 600;
+/*letter-spacing: .2rem;*/
+margin-right: 35px;
+text-decoration: none;
+line-height: 2.5rem;
+color: #222; }
+.navbar-link.active { color: #33C3F0; }
+.has-docked-nav .navbar { position: fixed; top: 0; left: 0; }
+.has-docked-nav .navbar-spacer { display: block; }
+/* Re-overiding the width 100% declaration to match size of % based container */
+.has-docked-nav .navbar > .container { width: 80%; }
 
-
-.intro {font-size:14px;color:#2C2C2C;}
+body {font-size: 1em;}
+.intro {color:#2C2C2C;}
 .bold {font-weight:bold;color:#337AB7;}
-#quote {font-family: Helvetica;text-transform: none; letter-spacing: normal;font-size:10px}
-h4 {color:#D9534F;}
+#quote {font-family: Georgia;text-transform: none; letter-spacing: normal;font-size:0.7em}
+.pheader {color:#D9534F;margin-bottom:10px;font-weight:bold;}
+pre {margin-bottom: 15px;}
+table {margin-bottom: 10px;}
+pre > code  {padding: 0.2rem 0.5rem}
+.certifications_list li {margin-bottom: 0.5rem}
+#informations {margin-bottom: 0}
